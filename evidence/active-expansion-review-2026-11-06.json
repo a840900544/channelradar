@@ -1,0 +1,47 @@
+{
+  "sample_day": "2026-11-06",
+  "reviewer": "assistant",
+  "confirmed_paid_core_skill_leads": 0,
+  "reviews": [
+    {
+      "school": "武昌工学院",
+      "source": "https://pd.qq.com/s/47bphpsn9",
+      "post": "B_d5eced6a64af0a001441152187269345590X60",
+      "summary": "家中电脑登录学校图书馆知网时显示 404",
+      "decision": "technical_usage_review",
+      "payment_intent": "unknown",
+      "resolved": "unknown",
+      "evidence_scope": "已读取详情，未读取评论"
+    },
+    {
+      "school": "湖北工业职业技术学院",
+      "source": "https://pd.qq.com/s/ant9zim4d",
+      "post": "B_4e42ed6ad1f10b001441152190789641220X60",
+      "summary": "寝室电费缴纳网页打不开",
+      "decision": "technical_usage_review",
+      "payment_intent": "unknown",
+      "resolved": "unknown",
+      "evidence_scope": "已读取详情，未读取评论"
+    },
+    {
+      "school": "武汉纺织大学外经贸学院",
+      "post": "B_e034ed6a2cec03001441152189358904940X60",
+      "decision": "outside_core",
+      "summary": "买东西跑腿"
+    },
+    {
+      "school": "武汉铁路职业技术学院",
+      "post": "B_c42ced6a19bc04001441152189358904940X60",
+      "decision": "outside_core",
+      "summary": "买东西跑腿"
+    },
+    {
+      "school": "湖北水利水电职业技术学院",
+      "post": "B_c667ed6ad57b09001441152187118351830X60",
+      "decision": "adjacent_service_review",
+      "summary": "有偿代淘笔记本电脑，具体服务范围未知",
+      "payment_intent": "explicit",
+      "evidence_scope": "人工抽查标题和列表摘要，尚未读取详情"
+    }
+  ]
+}

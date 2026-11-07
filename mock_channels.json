@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mock-szu-study",
+    "name": "深圳大学学习互助（模拟）",
+    "description": "深大粤海校区课程交流与软件求助",
+    "url": "https://example.invalid/mock-szu-study",
+    "queries": ["深圳大学", "深大", "粤海校区"],
+    "sections": [
+      {"id": "mock-tech", "name": "技术交流"},
+      {"id": "mock-chat", "name": "日常闲聊"}
+    ]
+  },
+  {
+    "id": "mock-szu-alumni",
+    "name": "深大校友社区（模拟）",
+    "description": "校友交流",
+    "url": null,
+    "queries": ["深圳大学", "深大"],
+    "sections": []
+  },
+  {
+    "id": "mock-scut-study",
+    "name": "华南理工大学编程互助（模拟）",
+    "description": "华工五山校区技术学习",
+    "url": null,
+    "queries": ["华南理工大学", "华工", "五山校区"],
+    "sections": [{"id": "mock-code", "name": "编程求助"}]
+  }
+]

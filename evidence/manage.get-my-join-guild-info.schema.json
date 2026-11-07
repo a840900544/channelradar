@@ -1,0 +1,12 @@
+{
+  "command": "manage.get-my-join-guild-info",
+  "description": "查看我的腾讯频道列表",
+  "group": "query",
+  "risk": "read",
+  "examples": [
+    "# 场景 1: 查看我的腾讯频道",
+    "tencent-channel-cli manage get-my-join-guild-info",
+    "# 场景 2: stdin JSON 传参",
+    "tencent-channel-cli manage get-my-join-guild-info --json"
+  ]
+}

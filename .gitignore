@@ -1,0 +1,11 @@
+__pycache__/
+*.sqlite3*
+.env
+.venv/
+.tools/
+node_modules/
+frontend/dist/
+data/
+backups/
+*.egg-info/
+evidence/*.png

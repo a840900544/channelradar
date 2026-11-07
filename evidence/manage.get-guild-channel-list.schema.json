@@ -1,0 +1,20 @@
+{
+  "command": "manage.get-guild-channel-list",
+  "description": "查看版块列表",
+  "group": "query",
+  "risk": "read",
+  "flags": [
+    {
+      "name": "guild-id",
+      "type": "string",
+      "required": true,
+      "description": "腾讯频道 ID"
+    }
+  ],
+  "examples": [
+    "# 场景 1: 获取版块列表",
+    "tencent-channel-cli manage get-guild-channel-list --guild-id 123456",
+    "# 场景 2: stdin JSON 传参",
+    "echo '{\"guild_id\":\"123456\"}' | tencent-channel-cli manage get-guild-channel-list"
+  ]
+}

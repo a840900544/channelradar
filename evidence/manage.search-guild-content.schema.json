@@ -1,0 +1,41 @@
+{
+  "command": "manage.search-guild-content",
+  "description": "搜索腾讯频道/帖子/作者",
+  "group": "query",
+  "risk": "read",
+  "flags": [
+    {
+      "name": "keyword",
+      "type": "string",
+      "required": true,
+      "description": "搜索关键词"
+    },
+    {
+      "name": "scope",
+      "type": "string",
+      "default": "channel",
+      "enum": [
+        "channel",
+        "feed",
+        "author",
+        "all"
+      ],
+      "description": "搜索范围: channel|feed|author|all"
+    },
+    {
+      "name": "next-page-token",
+      "type": "string",
+      "description": "翻页令牌 (从上次返回结果获取)"
+    }
+  ],
+  "examples": [
+    "# 场景 1: 搜索腾讯频道",
+    "tencent-channel-cli manage search-guild-content --keyword \"游戏\"",
+    "# 场景 2: 搜索帖子",
+    "tencent-channel-cli manage search-guild-content --keyword \"活动\" --scope feed",
+    "# 场景 3: 搜索作者",
+    "tencent-channel-cli manage search-guild-content --keyword \"张三\" --scope author",
+    "# 场景 4: stdin JSON 传参",
+    "echo '{\"keyword\":\"游戏\",\"scope\":\"channel\"}' | tencent-channel-cli manage search-guild-content"
+  ]
+}

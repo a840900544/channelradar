@@ -1,0 +1,47 @@
+[
+  {
+    "repo": "obris-dev/openmagpie",
+    "head": "9967975d0f9625133176fb76898a8f436bd4bc46",
+    "last_commit": "2026-10-14T10:21:09-04:00",
+    "license": "Apache-2.0 with directory exceptions",
+    "inspection": "source and license",
+    "runtime_tested": false,
+    "github_api_status": 403
+  },
+  {
+    "repo": "niihhhall/subreach",
+    "head": "03ab3d0f7c90c0ec4f361d4d33595706363882a0",
+    "last_commit": "2026-11-01T01:37:37+05:30",
+    "license": "MIT",
+    "inspection": "source and license",
+    "runtime_tested": false,
+    "github_api_status": 403
+  },
+  {
+    "repo": "datascale-ai/BizRadar",
+    "head": "f296994e515ef6aae5017dd2c37cfcb016a28432",
+    "last_commit": "2026-05-16T15:59:19+08:00",
+    "license": "MIT",
+    "inspection": "source and license",
+    "runtime_tested": false,
+    "github_api_status": 403
+  },
+  {
+    "repo": "yangyixxxx/lead-signal-listener",
+    "head": "983fd7b6b09dc076de964632e6e6e8bf63d33981",
+    "last_commit": "2026-10-10T18:04:01+08:00",
+    "license": "MIT",
+    "inspection": "source and license",
+    "runtime_tested": false,
+    "github_api_status": 403
+  },
+  {
+    "repo": "jackterror/social-demand-signal-agent",
+    "head": "08440799afbd2803ccc1e9f8d26cebf94e11837e",
+    "last_commit": "2026-07-07T11:23:52-04:00",
+    "license": "MIT",
+    "inspection": "source and license",
+    "runtime_tested": false,
+    "github_api_status": 403
+  }
+]

@@ -1,0 +1,59 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: channelradar
+      POSTGRES_DB: channelradar
+      POSTGRES_PASSWORD: ${RADAR_POSTGRES_PASSWORD:?configure RADAR_POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U channelradar -d channelradar"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    logging: &logging
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      RADAR_DATABASE_URL: postgresql+psycopg://channelradar:${RADAR_POSTGRES_PASSWORD}@db:5432/channelradar
+      RADAR_ADMIN_USERNAME: ${RADAR_ADMIN_USERNAME:-admin}
+      RADAR_ADMIN_PASSWORD_HASH: ${RADAR_ADMIN_PASSWORD_HASH:?configure admin password hash}
+      RADAR_SESSION_SECRET: ${RADAR_SESSION_SECRET:?configure session secret}
+      RADAR_COOKIE_SECURE: ${RADAR_COOKIE_SECURE:-true}
+      RADAR_PRODUCTION: "true"
+      RADAR_SOURCE_DB: /app/input/channelradar.sqlite3
+    volumes:
+      - type: bind
+        source: ./channelradar.sqlite3
+        target: /app/input/channelradar.sqlite3
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: ./evidence
+        target: /app/evidence
+        read_only: true
+    logging: *logging
+  nginx:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    logging: *logging
+volumes:
+  postgres_data:

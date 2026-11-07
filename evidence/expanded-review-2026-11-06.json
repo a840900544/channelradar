@@ -1,0 +1,66 @@
+{
+  "day": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "reviewer": "assistant",
+  "confirmed_paid_skill_leads": 0,
+  "reviews": [
+    {
+      "school": "江西应用科技学院",
+      "post": "B_a28ded6a9e0107001441152186711992000X60",
+      "source": "https://pd.qq.com/s/e5t8xypx2",
+      "summary": "电脑一侧声音沉闷并有电流声，寻求原因",
+      "decision": "technical_review",
+      "payment_intent": "unknown",
+      "resolved": "unknown",
+      "evidence_scope": "详情正文和首批可见评论，评论中有排查建议"
+    },
+    {
+      "school": "湖南应用技术学院",
+      "post": "B_a0d0ed6ae90f04001441152190039722670X60",
+      "source": "https://pd.qq.com/s/cmkpd4l2w",
+      "summary": "寻找能连接校园网的电脑处理一份表格",
+      "decision": "task_scope_review",
+      "payment_intent": "unknown",
+      "resolved": "unknown",
+      "evidence_scope": "详情正文，具体用途与独立完成要求未知"
+    },
+    {
+      "school": "湖南应用技术学院",
+      "post": "B_7019ed6a625f0d001441152187006409040X60",
+      "source": "https://pd.qq.com/s/3nm3xodt3",
+      "summary": "求帮写 WPS 操作，具体任务未展开",
+      "decision": "assessment_scope_review",
+      "payment_intent": "unknown",
+      "resolved": "unknown",
+      "evidence_scope": "详情正文及首批可见评论，需区分操作辅导与考核代做"
+    },
+    {
+      "school": "湖南应用技术学院",
+      "post": "B_7c97ed6ae29901001441152190323791630X60",
+      "source": "https://pd.qq.com/s/h34m8tvup",
+      "summary": "寻找会画画的人，明确有偿",
+      "decision": "creative_scope_review",
+      "payment_intent": "explicit",
+      "resolved": "unknown",
+      "evidence_scope": "详情正文，画什么及是否属于考核未知"
+    },
+    {
+      "school": "湖南应用技术学院",
+      "post": "B_8273ed6a98e00c001441152201717084080X60",
+      "decision": "information_only",
+      "summary": "询问校级奖学金答辩时长和 PPT 页数要求"
+    },
+    {
+      "school": "湖南应用技术学院",
+      "post": "B_6614ed6a2fb407001441152187069580770X60",
+      "decision": "outside_target",
+      "summary": "寻书"
+    }
+  ],
+  "limitations": [
+    "所选公开频道的最新 Feed 已到达日边界，其他频道和版块未逐一对账",
+    "候选已读详情，其余帖子主要复核标题和摘要",
+    "图片未逐张识别，未测得召回率",
+    "评论仅核查首批可见内容，解决状态未确认"
+  ]
+}

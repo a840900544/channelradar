@@ -1,0 +1,98 @@
+[
+  {
+    "guild": "631030283978486639",
+    "day": "2026-11-06",
+    "channel_name": "湖北理工学院校园岛",
+    "share_url": "https://pd.qq.com/s/3upmptqug",
+    "pages": 15,
+    "raw_count": 300,
+    "old_pages": 2,
+    "coverage": "boundary_reached",
+    "error": null,
+    "updated_at": "2026-11-07T12:25:17.394947+08:00",
+    "posts": 218,
+    "triage_counts": {
+      "no_rule_match": 215,
+      "paid_unclear": 3
+    },
+    "candidates": [
+      {
+        "post": "B_35b1ed6a19e600001441152212761435160X60",
+        "published": "2026-11-06 18:51:33",
+        "title": "找个人帮忙买东西 有偿",
+        "triage": "paid_unclear"
+      },
+      {
+        "post": "B_c485ed6a4c3608001441152188511007240X60",
+        "published": "2026-11-06 15:46:12",
+        "title": "找人帮拼 有偿",
+        "triage": "paid_unclear"
+      },
+      {
+        "post": "B_0f34ed6adede0a001441152188938204360X60",
+        "published": "2026-11-06 09:57:35",
+        "title": "充电宝掉在J3 504右边靠门了了。求好心人帮忙找一下，有偿",
+        "triage": "paid_unclear"
+      }
+    ]
+  },
+  {
+    "guild": "623859974054424157",
+    "day": "2026-11-06",
+    "channel_name": "湖北工业大学工程技术学院频道",
+    "share_url": "https://pd.qq.com/s/g72a585cu",
+    "pages": 4,
+    "raw_count": 80,
+    "old_pages": 2,
+    "coverage": "boundary_reached",
+    "error": null,
+    "updated_at": "2026-11-07T12:25:30.953314+08:00",
+    "posts": 24,
+    "triage_counts": {
+      "no_rule_match": 24
+    },
+    "candidates": []
+  },
+  {
+    "guild": "580223314024114825",
+    "day": "2026-11-06",
+    "channel_name": "武汉工程大学邮电与信息工程学院✅",
+    "share_url": "https://pd.qq.com/s/4df8rgle3",
+    "pages": 4,
+    "raw_count": 80,
+    "old_pages": 2,
+    "coverage": "boundary_reached",
+    "error": null,
+    "updated_at": "2026-11-07T12:26:55.081089+08:00",
+    "posts": 20,
+    "triage_counts": {
+      "no_rule_match": 19,
+      "paid_unclear": 1
+    },
+    "candidates": [
+      {
+        "post": "B_5437ed6af8500a001441152207368830340X60",
+        "published": "2026-11-06 10:11:32",
+        "title": "校内互助氛围浓，大家的需求都安排上了吗？",
+        "triage": "paid_unclear"
+      }
+    ]
+  },
+  {
+    "guild": "582725574046506070",
+    "day": "2026-11-06",
+    "channel_name": "武汉生物工程学院总频道",
+    "share_url": "https://pd.qq.com/s/buoery36h",
+    "pages": 5,
+    "raw_count": 100,
+    "old_pages": 2,
+    "coverage": "boundary_reached",
+    "error": null,
+    "updated_at": "2026-11-07T12:27:11.546050+08:00",
+    "posts": 31,
+    "triage_counts": {
+      "no_rule_match": 31
+    },
+    "candidates": []
+  }
+]

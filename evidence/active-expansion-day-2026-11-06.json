@@ -1,0 +1,466 @@
+[
+  {
+    "school": "武昌工学院",
+    "date": "2026-11-06",
+    "guild": "653423654013651259",
+    "channel": {
+      "name": "武昌工学院｜校园圈",
+      "guild_type": "公开腾讯频道",
+      "member_count": 5617,
+      "share_url": "https://pd.qq.com/s/hecuz733d",
+      "activity_screen": {
+        "sample_size": 20,
+        "recent_24h": 20,
+        "recent_span_seconds": 9807.0
+      }
+    },
+    "scan": {
+      "guild": "653423654013651259",
+      "day": "2026-11-06",
+      "channel_name": "武昌工学院｜校园圈",
+      "share_url": "https://pd.qq.com/s/hecuz733d",
+      "pages": 11,
+      "raw_count": 220,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:42:34.445212+08:00",
+      "posts": 139,
+      "triage_counts": {
+        "no_rule_match": 138,
+        "skill_review": 1
+      },
+      "candidates": [
+        {
+          "post": "B_d5eced6a64af0a001441152187269345590X60",
+          "published": "2026-11-06 23:05:57",
+          "title": "请问用家里的电脑怎么登学校图书馆的知网啊，为什么我在家里登",
+          "triage": "skill_review"
+        }
+      ]
+    },
+    "active_threshold": 50,
+    "active_qualified": true,
+    "selection_mode": "activity"
+  },
+  {
+    "school": "武汉华夏理工学院",
+    "date": "2026-11-06",
+    "guild": "627847374018427515",
+    "channel": {
+      "name": "武汉华夏理工学院论坛",
+      "guild_type": "公开腾讯频道",
+      "member_count": 18001,
+      "share_url": "https://pd.qq.com/s/d26l2arc4",
+      "activity_screen": {
+        "sample_size": 20,
+        "recent_24h": 20,
+        "recent_span_seconds": 5423.0
+      }
+    },
+    "scan": {
+      "guild": "627847374018427515",
+      "day": "2026-11-06",
+      "channel_name": "武汉华夏理工学院论坛",
+      "share_url": "https://pd.qq.com/s/d26l2arc4",
+      "pages": 13,
+      "raw_count": 260,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:45:58.071357+08:00",
+      "posts": 166,
+      "triage_counts": {
+        "no_rule_match": 166
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": true,
+    "selection_mode": "activity"
+  },
+  {
+    "school": "武汉工程科技学院",
+    "date": "2026-11-06",
+    "guild": "583918663998803889",
+    "channel": {
+      "name": "武汉工程科技学院频道",
+      "guild_type": "公开腾讯频道",
+      "member_count": 2532,
+      "share_url": "https://pd.qq.com/s/2b5g8rje5",
+      "activity_screen": {
+        "sample_size": 20,
+        "recent_24h": 9,
+        "recent_span_seconds": 77102.0
+      }
+    },
+    "scan": {
+      "guild": "583918663998803889",
+      "day": "2026-11-06",
+      "channel_name": "武汉工程科技学院频道",
+      "share_url": "https://pd.qq.com/s/2b5g8rje5",
+      "pages": 3,
+      "raw_count": 60,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:46:34.952330+08:00",
+      "posts": 9,
+      "triage_counts": {
+        "no_rule_match": 9
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": false,
+    "selection_mode": "activity"
+  },
+  {
+    "school": "武汉纺织大学外经贸学院",
+    "date": "2026-11-06",
+    "guild": "29305371788929962",
+    "channel": {
+      "name": "武汉纺织大学外经贸学院生态圈",
+      "guild_type": "公开腾讯频道",
+      "member_count": 1253,
+      "share_url": "https://pd.qq.com/s/4ybmnzmbb",
+      "activity_screen": {
+        "sample_size": 20,
+        "recent_24h": 4,
+        "recent_span_seconds": 46265.0
+      }
+    },
+    "scan": {
+      "guild": "29305371788929962",
+      "day": "2026-11-06",
+      "channel_name": "武汉纺织大学外经贸学院生态圈",
+      "share_url": "https://pd.qq.com/s/4ybmnzmbb",
+      "pages": 3,
+      "raw_count": 60,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:47:10.923930+08:00",
+      "posts": 6,
+      "triage_counts": {
+        "no_rule_match": 5,
+        "paid_unclear": 1
+      },
+      "candidates": [
+        {
+          "post": "B_e034ed6a2cec03001441152189358904940X60",
+          "published": "2026-11-06 10:01:04",
+          "title": "帮忙买东西，有偿",
+          "triage": "paid_unclear"
+        }
+      ]
+    },
+    "active_threshold": 50,
+    "active_qualified": false,
+    "selection_mode": "activity"
+  },
+  {
+    "school": "湖北大学知行学院",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "675004273988678348",
+    "channel": {
+      "name": "湖北大学知行学院2026级新生群",
+      "guild_type": "公开腾讯频道",
+      "member_count": 2694,
+      "share_url": "https://pd.qq.com/s/avw9zzrc0",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 2,
+        "recent_span_seconds": 20341.0
+      }
+    },
+    "scan": {
+      "guild": "675004273988678348",
+      "day": "2026-11-06",
+      "channel_name": "湖北大学知行学院2026级新生群",
+      "share_url": "https://pd.qq.com/s/avw9zzrc0",
+      "pages": 3,
+      "raw_count": 220,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:48:22.329512+08:00",
+      "posts": 3,
+      "triage_counts": {
+        "no_rule_match": 3
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": false
+  },
+  {
+    "school": "湖北工业职业技术学院",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "579377863991772814",
+    "channel": {
+      "name": "湖北工业职业技术学院论坛",
+      "guild_type": "公开腾讯频道",
+      "member_count": 17339,
+      "share_url": "https://pd.qq.com/s/9r57dl2kb",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 100,
+        "recent_span_seconds": 77102.0
+      }
+    },
+    "scan": {
+      "guild": "579377863991772814",
+      "day": "2026-11-06",
+      "channel_name": "湖北工业职业技术学院论坛",
+      "share_url": "https://pd.qq.com/s/9r57dl2kb",
+      "pages": 4,
+      "raw_count": 400,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:49:01.003790+08:00",
+      "posts": 122,
+      "triage_counts": {
+        "no_rule_match": 121,
+        "skill_review": 1
+      },
+      "candidates": [
+        {
+          "post": "B_4e42ed6ad1f10b001441152190789641220X60",
+          "published": "2026-11-06 10:58:22",
+          "title": "有人知道怎么给寝室充电费吗，我打不开网页",
+          "triage": "skill_review"
+        }
+      ]
+    },
+    "active_threshold": 50,
+    "active_qualified": true
+  },
+  {
+    "school": "武汉铁路职业技术学院",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "643828884054425774",
+    "channel": {
+      "name": "武汉铁路职业技术学院频道",
+      "guild_type": "公开腾讯频道",
+      "member_count": 1378,
+      "share_url": "https://pd.qq.com/s/5a8nug7jp",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 14,
+        "recent_span_seconds": 77630.0
+      }
+    },
+    "scan": {
+      "guild": "643828884054425774",
+      "day": "2026-11-06",
+      "channel_name": "武汉铁路职业技术学院频道",
+      "share_url": "https://pd.qq.com/s/5a8nug7jp",
+      "pages": 3,
+      "raw_count": 300,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:49:35.293781+08:00",
+      "posts": 17,
+      "triage_counts": {
+        "no_rule_match": 16,
+        "paid_unclear": 1
+      },
+      "candidates": [
+        {
+          "post": "B_c42ced6a19bc04001441152189358904940X60",
+          "published": "2026-11-06 09:26:28",
+          "title": "帮忙买东西，有偿",
+          "triage": "paid_unclear"
+        }
+      ]
+    },
+    "active_threshold": 50,
+    "active_qualified": false
+  },
+  {
+    "school": "武汉交通职业学院",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "86300411637726053",
+    "channel": {
+      "name": "武汉交通职业学院交流岛|新生必进",
+      "guild_type": "公开腾讯频道",
+      "member_count": 10130,
+      "share_url": "https://pd.qq.com/s/6yllmv2vy",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 34,
+        "recent_span_seconds": 83547.0
+      }
+    },
+    "scan": {
+      "guild": "86300411637726053",
+      "day": "2026-11-06",
+      "channel_name": "武汉交通职业学院交流岛|新生必进",
+      "share_url": "https://pd.qq.com/s/6yllmv2vy",
+      "pages": 3,
+      "raw_count": 300,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:50:12.624739+08:00",
+      "posts": 31,
+      "triage_counts": {
+        "no_rule_match": 31
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": false
+  },
+  {
+    "school": "武汉城市职业学院",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "7102381637226358",
+    "channel": {
+      "name": "武汉城市职业学院总频道",
+      "guild_type": "公开腾讯频道",
+      "member_count": 6877,
+      "share_url": "https://pd.qq.com/s/4ous6kbx1",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 67,
+        "recent_span_seconds": 84220.0
+      }
+    },
+    "scan": {
+      "guild": "7102381637226358",
+      "day": "2026-11-06",
+      "channel_name": "武汉城市职业学院总频道",
+      "share_url": "https://pd.qq.com/s/4ous6kbx1",
+      "pages": 3,
+      "raw_count": 300,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:50:49.551916+08:00",
+      "posts": 68,
+      "triage_counts": {
+        "no_rule_match": 68
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": true
+  },
+  {
+    "school": "鄂州职业大学",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "26181381636770383",
+    "channel": {
+      "name": "莲花山大学论坛｜鄂州职业大学",
+      "guild_type": "公开腾讯频道",
+      "member_count": 27134,
+      "share_url": "https://pd.qq.com/s/ehzikn09n",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 100,
+        "recent_span_seconds": 59038.0
+      }
+    },
+    "scan": {
+      "guild": "26181381636770383",
+      "day": "2026-11-06",
+      "channel_name": "莲花山大学论坛｜鄂州职业大学",
+      "share_url": "https://pd.qq.com/s/ehzikn09n",
+      "pages": 5,
+      "raw_count": 500,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:51:29.380929+08:00",
+      "posts": 227,
+      "triage_counts": {
+        "no_rule_match": 227
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": true
+  },
+  {
+    "school": "湖北水利水电职业技术学院",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "634397494055203719",
+    "channel": {
+      "name": "湖北水利水电职业技术学院总频道",
+      "guild_type": "公开腾讯频道",
+      "member_count": 7732,
+      "share_url": "https://pd.qq.com/s/6aozuytfo",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 73,
+        "recent_span_seconds": 85707.0
+      }
+    },
+    "scan": {
+      "guild": "634397494055203719",
+      "day": "2026-11-06",
+      "channel_name": "湖北水利水电职业技术学院总频道",
+      "share_url": "https://pd.qq.com/s/6aozuytfo",
+      "pages": 4,
+      "raw_count": 400,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:52:05.743563+08:00",
+      "posts": 66,
+      "triage_counts": {
+        "no_rule_match": 66
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": true
+  },
+  {
+    "school": "湖北工程学院",
+    "date": "2026-11-06",
+    "selection_mode": "activity",
+    "guild": "596616673991342554",
+    "channel": {
+      "name": "湖北工程学院校园频道|26新生",
+      "guild_type": "公开腾讯频道",
+      "member_count": 2853,
+      "share_url": "https://pd.qq.com/s/24plm1tum",
+      "activity_screen": {
+        "sample_size": 100,
+        "recent_24h": 13,
+        "recent_span_seconds": 77619.0
+      }
+    },
+    "scan": {
+      "guild": "596616673991342554",
+      "day": "2026-11-06",
+      "channel_name": "湖北工程学院校园频道|26新生",
+      "share_url": "https://pd.qq.com/s/24plm1tum",
+      "pages": 3,
+      "raw_count": 300,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:52:42.316213+08:00",
+      "posts": 12,
+      "triage_counts": {
+        "no_rule_match": 12
+      },
+      "candidates": []
+    },
+    "active_threshold": 50,
+    "active_qualified": false
+  }
+]

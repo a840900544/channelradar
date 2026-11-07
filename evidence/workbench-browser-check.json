@@ -1,0 +1,143 @@
+{
+  "browser": "isolated headless Edge",
+  "javascript_errors": [],
+  "all_posts": 1498,
+  "scan_records": 24,
+  "dashboard": {
+    "posts": 1498,
+    "candidates": 13,
+    "qualified": 0,
+    "statuses": {
+      "new": 1498
+    },
+    "revenue_fen": 0,
+    "universities": [
+      {
+        "name": "鄂州职业大学",
+        "posts": 227,
+        "candidates": 0
+      },
+      {
+        "name": "湖北理工学院",
+        "posts": 218,
+        "candidates": 3
+      },
+      {
+        "name": "武汉华夏理工学院",
+        "posts": 166,
+        "candidates": 0
+      },
+      {
+        "name": "湖南应用技术学院",
+        "posts": 162,
+        "candidates": 5
+      },
+      {
+        "name": "武昌工学院",
+        "posts": 139,
+        "candidates": 1
+      },
+      {
+        "name": "湖北工业职业技术学院",
+        "posts": 122,
+        "candidates": 1
+      },
+      {
+        "name": "江西应用科技学院",
+        "posts": 92,
+        "candidates": 1
+      },
+      {
+        "name": "武汉城市职业学院",
+        "posts": 68,
+        "candidates": 0
+      },
+      {
+        "name": "湖北水利水电职业技术学院",
+        "posts": 66,
+        "candidates": 0
+      },
+      {
+        "name": "武汉交通职业学院",
+        "posts": 31,
+        "candidates": 0
+      },
+      {
+        "name": "武汉生物工程学院",
+        "posts": 31,
+        "candidates": 0
+      },
+      {
+        "name": "湖南信息学院",
+        "posts": 27,
+        "candidates": 0
+      },
+      {
+        "name": "江西科技学院",
+        "posts": 24,
+        "candidates": 0
+      },
+      {
+        "name": "湖北工业大学工程技术学院",
+        "posts": 24,
+        "candidates": 0
+      },
+      {
+        "name": "武汉工程大学邮电与信息工程学院",
+        "posts": 20,
+        "candidates": 0
+      },
+      {
+        "name": "武汉铁路职业技术学院",
+        "posts": 17,
+        "candidates": 1
+      },
+      {
+        "name": "湖南机电职业技术学院",
+        "posts": 14,
+        "candidates": 0
+      },
+      {
+        "name": "湖北工程学院",
+        "posts": 12,
+        "candidates": 0
+      },
+      {
+        "name": "武汉工程科技学院",
+        "posts": 9,
+        "candidates": 0
+      },
+      {
+        "name": "南昌工学院",
+        "posts": 7,
+        "candidates": 0
+      },
+      {
+        "name": "南昌理工学院",
+        "posts": 7,
+        "candidates": 0
+      },
+      {
+        "name": "武汉纺织大学外经贸学院",
+        "posts": 6,
+        "candidates": 1
+      },
+      {
+        "name": "湖南交通工程学院",
+        "posts": 6,
+        "candidates": 0
+      },
+      {
+        "name": "湖北大学知行学院",
+        "posts": 3,
+        "candidates": 0
+      }
+    ]
+  },
+  "mobile_horizontal_overflow": false,
+  "import_result": {
+    "imported": 0,
+    "updated": 0,
+    "scanned": 1498
+  }
+}

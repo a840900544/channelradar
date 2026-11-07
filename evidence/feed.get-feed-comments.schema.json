@@ -1,0 +1,60 @@
+{
+  "command": "feed.get-feed-comments",
+  "description": "查看帖子评论",
+  "group": "read",
+  "risk": "read",
+  "flags": [
+    {
+      "name": "feed-id",
+      "type": "string",
+      "required": true,
+      "description": "帖子 ID"
+    },
+    {
+      "name": "guild-id",
+      "type": "string",
+      "pattern": "uint",
+      "description": "腾讯频道 ID"
+    },
+    {
+      "name": "channel-id",
+      "type": "string",
+      "pattern": "uint",
+      "description": "版块 ID"
+    },
+    {
+      "name": "count",
+      "type": "int",
+      "default": 20,
+      "description": "每页数量 (最大 20)"
+    },
+    {
+      "name": "rank-type",
+      "type": "int",
+      "description": "排序：0=默认，1=时间正序，2=时间倒序"
+    },
+    {
+      "name": "reply-list-num",
+      "type": "int",
+      "description": "每条评论预加载的回复数（默认1，最大10）"
+    },
+    {
+      "name": "attach-info",
+      "type": "string",
+      "description": "翻页令牌 (从上次返回结果获取)"
+    }
+  ],
+  "examples": [
+    "# 场景 1: 获取帖子评论",
+    "tencent-channel-cli feed get-feed-comments --feed-id B_xxx --guild-id 123",
+    "# 场景 2: 指定数量和排序",
+    "tencent-channel-cli feed get-feed-comments --feed-id B_xxx --guild-id 123 --count 10 --rank-type 2",
+    "# 场景 3: 每条评论预加载 5 条回复",
+    "tencent-channel-cli feed get-feed-comments --feed-id B_xxx --guild-id 123 --reply-list-num 5",
+    "# 场景 4: 翻页",
+    "tencent-channel-cli feed get-feed-comments --feed-id B_xxx --guild-id 123 \\",
+    "--attach-info \"上次返回的翻页令牌\"",
+    "# 场景 5: stdin JSON 传参",
+    "echo '{\"feed_id\":\"B_xxx\",\"guild_id\":\"123\",\"count\":10}' | tencent-channel-cli feed get-feed-comments"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "command": "feed.get-guild-feeds",
+  "description": "获取腾讯频道主页帖子",
+  "group": "read",
+  "risk": "read",
+  "flags": [
+    {
+      "name": "guild-id",
+      "type": "string",
+      "required": true,
+      "pattern": "uint",
+      "description": "腾讯频道 ID"
+    },
+    {
+      "name": "get-type",
+      "type": "int",
+      "default": 2,
+      "enum": [
+        "1",
+        "2"
+      ],
+      "description": "获取类型: 1=热门 2=最新"
+    },
+    {
+      "name": "count",
+      "type": "int",
+      "default": 20,
+      "description": "每页数量"
+    },
+    {
+      "name": "feed-attach-info",
+      "type": "string",
+      "description": "翻页令牌 (从上次返回结果获取)"
+    }
+  ],
+  "examples": [
+    "# 场景 1: 获取最新帖子",
+    "tencent-channel-cli feed get-guild-feeds --guild-id 123",
+    "# 场景 2: 获取热门帖子",
+    "tencent-channel-cli feed get-guild-feeds --guild-id 123 --get-type 1",
+    "# 场景 3: 翻页 (传入上次返回的 attach_info)",
+    "tencent-channel-cli feed get-guild-feeds --guild-id 123 \\",
+    "--feed-attach-info \"上次返回的翻页令牌\"",
+    "# 场景 4: stdin JSON 传参",
+    "echo '{\"guild_id\":\"123\",\"get_type\":2,\"count\":10}' | tencent-channel-cli feed get-guild-feeds"
+  ]
+}

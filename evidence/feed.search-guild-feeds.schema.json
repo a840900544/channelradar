@@ -1,0 +1,42 @@
+{
+  "command": "feed.search-guild-feeds",
+  "description": "搜索帖子",
+  "group": "read",
+  "risk": "read",
+  "flags": [
+    {
+      "name": "guild-id",
+      "type": "string",
+      "required": true,
+      "pattern": "uint",
+      "description": "腾讯频道 ID"
+    },
+    {
+      "name": "query",
+      "type": "string",
+      "description": "搜索关键词"
+    },
+    {
+      "name": "keyword",
+      "type": "string",
+      "description": "搜索关键词 (--query 的别名)"
+    },
+    {
+      "name": "next-page-cookie",
+      "type": "string",
+      "description": "翻页令牌 (从上次返回结果获取)"
+    }
+  ],
+  "examples": [
+    "# 场景 1: 搜索帖子",
+    "tencent-channel-cli feed search-guild-feeds --guild-id 123 --query \"活动通知\"",
+    "# 场景 2: 使用 keyword 别名",
+    "tencent-channel-cli feed search-guild-feeds --guild-id 123 --keyword \"活动通知\"",
+    "# 场景 3: stdin JSON 传参",
+    "echo '{\"guild_id\":\"123\",\"query\":\"活动通知\"}' | tencent-channel-cli feed search-guild-feeds",
+    "# 场景 4: 未加入频道时，先搜索并加入",
+    "tencent-channel-cli manage search-and-join --keyword \"频道名\" --json",
+    "# 加入后再搜索",
+    "tencent-channel-cli feed search-guild-feeds --guild-id <guild_id> --query \"活动通知\""
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "day": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "reviewer": "assistant",
+  "confirmed_skill_leads": 0,
+  "reviews": [
+    {
+      "post": "B_35b1ed6a19e600001441152212761435160X60",
+      "decision": "outside_target",
+      "reason": "买东西跑腿"
+    },
+    {
+      "post": "B_0f34ed6adede0a001441152188938204360X60",
+      "decision": "outside_target",
+      "reason": "失物寻找"
+    },
+    {
+      "post": "B_c485ed6a4c3608001441152188511007240X60",
+      "decision": "outside_target",
+      "reason": "已核查配图，为商品拼团",
+      "source": "https://pd.qq.com/s/f0h9g4o6s"
+    },
+    {
+      "post": "B_5437ed6af8500a001441152207368830340X60",
+      "decision": "recap",
+      "reason": "频道热点汇总引用取物跑腿需求"
+    }
+  ],
+  "limitations": [
+    "仅覆盖所选四个频道的可访问最新 Feed",
+    "未逐张识别图片",
+    "完整正文未逐帖读取，漏报率未知"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "sample_day": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "threshold_posts": 50,
+  "scope": "selected_public_channel_latest_feed",
+  "pilots": [
+    {
+      "school": "鄂州职业大学",
+      "guild": "26181381636770383",
+      "channel": "莲花山大学论坛｜鄂州职业大学",
+      "url": "https://pd.qq.com/s/ehzikn09n",
+      "day_posts": 227,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "湖北理工学院",
+      "guild": "631030283978486639",
+      "channel": "湖北理工学院校园岛",
+      "url": "https://pd.qq.com/s/3upmptqug",
+      "day_posts": 218,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "武汉华夏理工学院",
+      "guild": "627847374018427515",
+      "channel": "武汉华夏理工学院论坛",
+      "url": "https://pd.qq.com/s/d26l2arc4",
+      "day_posts": 166,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "湖南应用技术学院",
+      "guild": "92950541757509346",
+      "channel": "湖南应用技术学院校园圈",
+      "url": "https://pd.qq.com/s/5q3lcj64b",
+      "day_posts": 162,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "武昌工学院",
+      "guild": "653423654013651259",
+      "channel": "武昌工学院｜校园圈",
+      "url": "https://pd.qq.com/s/hecuz733d",
+      "day_posts": 139,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "湖北工业职业技术学院",
+      "guild": "579377863991772814",
+      "channel": "湖北工业职业技术学院论坛",
+      "url": "https://pd.qq.com/s/9r57dl2kb",
+      "day_posts": 122,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "江西应用科技学院",
+      "guild": "16638801637843371",
+      "channel": "江西应用科技学院圈",
+      "url": "https://pd.qq.com/s/bzjoiufbw",
+      "day_posts": 92,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "武汉城市职业学院",
+      "guild": "7102381637226358",
+      "channel": "武汉城市职业学院总频道",
+      "url": "https://pd.qq.com/s/4ous6kbx1",
+      "day_posts": 68,
+      "monitoring_enabled": false
+    },
+    {
+      "school": "湖北水利水电职业技术学院",
+      "guild": "634397494055203719",
+      "channel": "湖北水利水电职业技术学院总频道",
+      "url": "https://pd.qq.com/s/6aozuytfo",
+      "day_posts": 66,
+      "monitoring_enabled": false
+    }
+  ]
+}

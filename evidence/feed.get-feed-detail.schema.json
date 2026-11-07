@@ -1,0 +1,34 @@
+{
+  "command": "feed.get-feed-detail",
+  "description": "查看帖子详情",
+  "group": "read",
+  "risk": "read",
+  "flags": [
+    {
+      "name": "feed-id",
+      "type": "string",
+      "required": true,
+      "description": "帖子 ID"
+    },
+    {
+      "name": "guild-id",
+      "type": "string",
+      "pattern": "uint",
+      "description": "腾讯频道 ID (推荐传入)"
+    },
+    {
+      "name": "channel-id",
+      "type": "string",
+      "pattern": "uint",
+      "description": "版块 ID"
+    }
+  ],
+  "examples": [
+    "# 场景 1: 查看帖子详情",
+    "tencent-channel-cli feed get-feed-detail --feed-id B_xxx --guild-id 123",
+    "# 场景 2: 同时传入 channel_id (结果更完整)",
+    "tencent-channel-cli feed get-feed-detail --feed-id B_xxx --guild-id 123 --channel-id 456",
+    "# 场景 3: stdin JSON 传参",
+    "echo '{\"feed_id\":\"B_xxx\",\"guild_id\":\"123\"}' | tencent-channel-cli feed get-feed-detail"
+  ]
+}

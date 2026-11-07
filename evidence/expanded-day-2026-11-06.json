@@ -1,0 +1,267 @@
+[
+  {
+    "school": "江西科技学院",
+    "date": "2026-11-06",
+    "guild": "655626273988328898",
+    "channel": {
+      "name": "江西科技学院校园社区",
+      "guild_type": "公开腾讯频道",
+      "member_count": 5363,
+      "share_url": "https://pd.qq.com/s/cewx29kvt"
+    },
+    "scan": {
+      "guild": "655626273988328898",
+      "day": "2026-11-06",
+      "channel_name": "江西科技学院校园社区",
+      "share_url": "https://pd.qq.com/s/cewx29kvt",
+      "pages": 4,
+      "raw_count": 80,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:34:10.356138+08:00",
+      "posts": 24,
+      "triage_counts": {
+        "no_rule_match": 24
+      },
+      "candidates": []
+    }
+  },
+  {
+    "school": "南昌工学院",
+    "date": "2026-11-06",
+    "guild": "644093213991433163",
+    "channel": {
+      "name": "南昌工学院交流论坛",
+      "guild_type": "公开腾讯频道",
+      "member_count": 3337,
+      "share_url": "https://pd.qq.com/s/gj5qhvg31"
+    },
+    "scan": {
+      "guild": "644093213991433163",
+      "day": "2026-11-06",
+      "channel_name": "南昌工学院交流论坛",
+      "share_url": "https://pd.qq.com/s/gj5qhvg31",
+      "pages": 3,
+      "raw_count": 60,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:31:32.737449+08:00",
+      "posts": 7,
+      "triage_counts": {
+        "no_rule_match": 7
+      },
+      "candidates": []
+    }
+  },
+  {
+    "school": "南昌理工学院",
+    "date": "2026-11-06",
+    "guild": "591656074026625715",
+    "channel": {
+      "name": "南昌理工学院校园频道",
+      "guild_type": "公开腾讯频道",
+      "member_count": 3477,
+      "share_url": "https://pd.qq.com/s/2ufvmge0o"
+    },
+    "scan": {
+      "guild": "591656074026625715",
+      "day": "2026-11-06",
+      "channel_name": "南昌理工学院校园频道",
+      "share_url": "https://pd.qq.com/s/2ufvmge0o",
+      "pages": 3,
+      "raw_count": 60,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:32:15.009186+08:00",
+      "posts": 7,
+      "triage_counts": {
+        "no_rule_match": 7
+      },
+      "candidates": []
+    }
+  },
+  {
+    "school": "江西应用科技学院",
+    "date": "2026-11-06",
+    "guild": "16638801637843371",
+    "channel": {
+      "name": "江西应用科技学院圈",
+      "guild_type": "公开腾讯频道",
+      "member_count": 14299,
+      "share_url": "https://pd.qq.com/s/bzjoiufbw"
+    },
+    "scan": {
+      "guild": "16638801637843371",
+      "day": "2026-11-06",
+      "channel_name": "江西应用科技学院圈",
+      "share_url": "https://pd.qq.com/s/bzjoiufbw",
+      "pages": 8,
+      "raw_count": 160,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:34:51.092391+08:00",
+      "posts": 92,
+      "triage_counts": {
+        "no_rule_match": 91,
+        "skill_review": 1
+      },
+      "candidates": [
+        {
+          "post": "B_a28ded6a9e0107001441152186711992000X60",
+          "published": "2026-11-06 16:19:46",
+          "title": "有没有懂为啥电脑右侧声音沉闷有电流滋滋声",
+          "triage": "skill_review"
+        }
+      ]
+    }
+  },
+  {
+    "school": "湖南交通工程学院",
+    "date": "2026-11-06",
+    "guild": "611933933976140165",
+    "channel": {
+      "name": "湖南交通工程学院校园论坛",
+      "guild_type": "公开腾讯频道",
+      "member_count": 4426,
+      "share_url": "https://pd.qq.com/s/gzzgj2ccp"
+    },
+    "scan": {
+      "guild": "611933933976140165",
+      "day": "2026-11-06",
+      "channel_name": "湖南交通工程学院校园论坛",
+      "share_url": "https://pd.qq.com/s/gzzgj2ccp",
+      "pages": 3,
+      "raw_count": 60,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:35:19.519698+08:00",
+      "posts": 6,
+      "triage_counts": {
+        "no_rule_match": 6
+      },
+      "candidates": []
+    }
+  },
+  {
+    "school": "湖南信息学院",
+    "date": "2026-11-06",
+    "guild": "619010663988366370",
+    "channel": {
+      "name": "湖南信息学院校园频道",
+      "guild_type": "公开腾讯频道",
+      "member_count": 7065,
+      "share_url": "https://pd.qq.com/s/feu92fk25"
+    },
+    "scan": {
+      "guild": "619010663988366370",
+      "day": "2026-11-06",
+      "channel_name": "湖南信息学院校园频道",
+      "share_url": "https://pd.qq.com/s/feu92fk25",
+      "pages": 4,
+      "raw_count": 80,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:35:46.521309+08:00",
+      "posts": 27,
+      "triage_counts": {
+        "no_rule_match": 27
+      },
+      "candidates": []
+    }
+  },
+  {
+    "school": "湖南应用技术学院",
+    "date": "2026-11-06",
+    "guild": "92950541757509346",
+    "channel": {
+      "name": "湖南应用技术学院校园圈",
+      "guild_type": "公开腾讯频道",
+      "member_count": 6227,
+      "share_url": "https://pd.qq.com/s/5q3lcj64b"
+    },
+    "scan": {
+      "guild": "92950541757509346",
+      "day": "2026-11-06",
+      "channel_name": "湖南应用技术学院校园圈",
+      "share_url": "https://pd.qq.com/s/5q3lcj64b",
+      "pages": 12,
+      "raw_count": 240,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:36:37.941885+08:00",
+      "posts": 162,
+      "triage_counts": {
+        "no_rule_match": 157,
+        "paid_unclear": 2,
+        "skill_review": 3
+      },
+      "candidates": [
+        {
+          "post": "B_a0d0ed6ae90f04001441152190039722670X60",
+          "published": "2026-11-06 21:05:36",
+          "title": "有电脑能连校园网的代做吗一个表格",
+          "triage": "skill_review"
+        },
+        {
+          "post": "B_7c97ed6ae29901001441152190323791630X60",
+          "published": "2026-11-06 17:01:48",
+          "title": "找一个会画画的朋友有偿",
+          "triage": "paid_unclear"
+        },
+        {
+          "post": "B_8273ed6a98e00c001441152201717084080X60",
+          "published": "2026-11-06 14:28:18",
+          "title": "有没有人知道校级奖学金答辩时长和PPT页数要求啊？",
+          "triage": "skill_review"
+        },
+        {
+          "post": "B_7019ed6a625f0d001441152187006409040X60",
+          "published": "2026-11-06 08:04:00",
+          "title": "求帮写Wps操作系统",
+          "triage": "skill_review"
+        },
+        {
+          "post": "B_6614ed6a2fb407001441152187069580770X60",
+          "published": "2026-11-06 07:42:30",
+          "title": "有没有人看见这本书？上面写着汉语言[已脱敏]班，具体名字不透露了",
+          "triage": "paid_unclear"
+        }
+      ]
+    }
+  },
+  {
+    "school": "湖南机电职业技术学院",
+    "date": "2026-11-06",
+    "guild": "612755574024115163",
+    "channel": {
+      "name": "湖南机电职业技术学院校园频道",
+      "guild_type": "公开腾讯频道",
+      "member_count": 5935,
+      "share_url": "https://pd.qq.com/s/4p7edddfm"
+    },
+    "scan": {
+      "guild": "612755574024115163",
+      "day": "2026-11-06",
+      "channel_name": "湖南机电职业技术学院校园频道",
+      "share_url": "https://pd.qq.com/s/4p7edddfm",
+      "pages": 3,
+      "raw_count": 60,
+      "old_pages": 2,
+      "coverage": "boundary_reached",
+      "error": null,
+      "updated_at": "2026-11-07T12:37:06.048623+08:00",
+      "posts": 14,
+      "triage_counts": {
+        "no_rule_match": 14
+      },
+      "candidates": []
+    }
+  }
+]

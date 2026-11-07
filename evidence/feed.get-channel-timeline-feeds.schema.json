@@ -1,0 +1,44 @@
+{
+  "command": "feed.get-channel-timeline-feeds",
+  "description": "获取版块帖子列表",
+  "group": "read",
+  "risk": "read",
+  "flags": [
+    {
+      "name": "guild-id",
+      "type": "string",
+      "required": true,
+      "pattern": "uint",
+      "description": "腾讯频道 ID"
+    },
+    {
+      "name": "channel-id",
+      "type": "string",
+      "required": true,
+      "pattern": "uint",
+      "description": "版块 ID"
+    },
+    {
+      "name": "count",
+      "type": "int",
+      "default": 20,
+      "description": "每页数量"
+    },
+    {
+      "name": "feed-attach-info",
+      "type": "string",
+      "description": "翻页令牌 (从上次返回结果获取)"
+    }
+  ],
+  "examples": [
+    "# 场景 1: 获取版块帖子",
+    "tencent-channel-cli feed get-channel-timeline-feeds --guild-id 123 --channel-id 456",
+    "# 场景 2: 指定数量",
+    "tencent-channel-cli feed get-channel-timeline-feeds --guild-id 123 --channel-id 456 --count 10",
+    "# 场景 3: 翻页",
+    "tencent-channel-cli feed get-channel-timeline-feeds --guild-id 123 --channel-id 456 \\",
+    "--feed-attach-info \"上次返回的翻页令牌\"",
+    "# 场景 4: stdin JSON 传参",
+    "echo '{\"guild_id\":\"123\",\"channel_id\":\"456\"}' | tencent-channel-cli feed get-channel-timeline-feeds"
+  ]
+}
