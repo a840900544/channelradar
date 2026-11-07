@@ -1,5 +1,9 @@
 # Windows 云电脑迁移
 
+通过 GitHub 接续开发时，先克隆私有仓库并在云电脑 Codex 中打开该目录。阅读 `AGENTS.md` 和 `HANDOFF.md`。将 Windows 迁移包解压到单独目录，再将其中的 `channelradar.sqlite3`、`data/workbench.sqlite3` 和 `frontend/dist` 复制到新克隆目录的对应位置。两个数据库用于恢复实验与审核记录，构建产物可直接启动页面。保留 Git 克隆得到的源码。
+
+如需在没有迁移包时从源码构建页面，在云电脑安装 Node.js 22.12+，在 `frontend` 目录运行 `npm ci` 和 `npm run build`。数据库由初始化和采集步骤重新建立。
+
 1. 在云电脑安装 Python 3.12 或以上版本，并确认 PowerShell 中的 `python --version` 可运行。
 2. 将迁移包复制到云电脑并解压。在解压目录打开 PowerShell，执行以下命令。
 
